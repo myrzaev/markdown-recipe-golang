@@ -1,0 +1,54 @@
+# Binaries
+*.exe
+*.out
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+*.test
+*.swp
+
+# Go build artifacts
+/bin/
+/pkg/
+/dist/
+/vendor/
+/*.mod
+/*.sum
+/go.sum
+/go.work
+/go.work.sum
+
+# IDE and Editor settings
+.idea/
+.vscode/
+*.iml
+
+# Logs and Debug files
+*.log
+*.gz
+*.swp
+*.swo
+*.bak
+*.tmp
+.DS_Store
+
+# Coverage and Test Files
+cover.out
+*.coverprofile
+*.cov
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.pid
+*.seed
+*.old
+
+# Docker and Deployment
+.env
+.dockerignore
+node_modules/
+terraform.tfstate*
